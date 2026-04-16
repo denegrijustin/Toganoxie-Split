@@ -157,7 +157,7 @@ def get_latest_run(model_id: str) -> tuple[str, int]:
     if cfg is None:
         raise ValueError(f"Unknown NOMADS model: {model_id!r}")
 
-    now = datetime.utcnow()
+    now = datetime.now(timezone.utc)
     effective_hour = now.hour - MODEL_AVAILABILITY_DELAY_HOURS
 
     run_hours = sorted(cfg["run_hours"])
