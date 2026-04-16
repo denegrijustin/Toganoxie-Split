@@ -1,0 +1,27 @@
+Request Summary
+
+Objective:
+Create a fully executable GitHub Copilot prompt for a new repository named `toganoxie-split`.
+The repository has no branch history yet, so the prompt must:
+- bootstrap the repository
+- establish the `main` branch
+- create foundational files on `main`
+- define a protected-branch workflow going forward
+- assign all major work to individual sub-agents
+- prepare a Streamlit weather intelligence app architecture
+
+Functional intent of the app:
+- U.S. radar station map
+- live radar overlays
+- model comparison
+- point forecast inspection
+- weather alerts
+- simple mode and advanced mode
+- branch-based development after initial bootstrap
+
+Primary implementation style:
+- Python 3.11
+- Streamlit
+- modular services and utilities
+- CI-ready structure
+- explicit no-fake-data and validated-source requirements
