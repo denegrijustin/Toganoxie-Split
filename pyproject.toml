@@ -1,0 +1,11 @@
+[project]
+name = "toganoxie-split"
+version = "0.1.0"
+description = "U.S.-only weather intelligence app bootstrap"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"
+testpaths = ["tests"]

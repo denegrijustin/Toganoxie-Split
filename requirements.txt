@@ -1,0 +1,10 @@
+streamlit
+requests
+httpx
+pandas
+xarray
+cfgrib
+eccodes
+pydeck
+plotly
+pytest
